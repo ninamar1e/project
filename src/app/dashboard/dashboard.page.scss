@@ -1,0 +1,71 @@
+ion-button {
+    --background: #432e2e;
+    --background-hover: #432e2e;
+    --background-activated:#432e2e ;
+    --background-focused: #432e2e;
+  
+    --color: rgb(248, 248, 249);
+  
+    --border-radius: 50px;
+    --border-color: #fcf8f8;
+    --border-style: solid;
+    --border-width: 1px;
+  
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  
+    --ripple-color: rgb(84, 44, 44);
+  
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+  }
+  
+  ion-searchbar{
+    --background: #f9f5f5;
+    --background-hover: #f8f6f6;
+    --background-activated:#fbf9f9 ;
+    --background-focused: #fcfafa;
+  
+    --color: rgb(13, 13, 19);
+  
+    --border-radius: 50px;
+    --border-color: #fcf8f8;
+    --border-style: solid;
+    --border-width: 1px;
+  
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  
+    --ripple-color: rgb(255, 252, 252);
+  
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+  }
+  .center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 100px;
+  }
+
+  .logo{
+    display: block;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    
+  }
+
+  ion-header{
+    --background: #432e2e;
+    --background-hover: #432e2e;
+    --background-activated:#432e2e ;
+    --background-focused: #432e2e;
+  }
+  ion-fab-button {
+    --background: #432e2e;
+    --background-activated: #432e2e;
+    --background-hover: #432e2e;
+    --border-radius: 15px;
+    --box-shadow: 0px 1px 2px 0px rgba(245, 242, 242, 0.3), 0px 1px 3px 1px rgba(247, 242, 242, 0.15);
+    --color: rgb(250, 247, 247);
+  }

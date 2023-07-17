@@ -1,0 +1,81 @@
+<ion-content>
+  <ion-fab vertical="Top" horizontal="start">
+      <ion-fab-button>
+        <ion-icon routerLink="/dashboard" name="arrow-back-outline"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+    <h1>Checkout</h1>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Full Name</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-item>
+        <ion-input placeholder="Enter Full Name"></ion-input>
+      </ion-item>    
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Address</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-input placeholder="Enter Address"></ion-input>
+      </ion-item>    
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Contact Number</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-item>
+        <ion-input type="number" placeholder="Contact Number"></ion-input>
+      </ion-item>    
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Email Address</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-item>
+        <ion-input type="email" placeholder="Enter Email"></ion-input>
+      </ion-item>    
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Comment Box:</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item>
+        <ion-input type="comment" placeholder="Enter Comment"></ion-input>
+      </ion-item>    
+    </ion-card-content>
+  </ion-card>
+
+  <ion-item color="light">
+    <ion-select label="Select" placeholder="Select">
+      <ion-select-option value="School">School</ion-select-option>
+      <ion-select-option value="Dswd">DSWD</ion-select-option>
+      <ion-select-option value="Dswd">Others</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+    <ion-row>
+      <ion-col>
+        <ion-button type="submit" expand="block" routerLink="/dashboard">Submit</ion-button>
+      </ion-col>
+    </ion-row>
+</ion-content>
+

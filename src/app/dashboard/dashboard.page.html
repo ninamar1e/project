@@ -1,0 +1,110 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <img src="assets/image5.jpg" alt="user" class="logo">
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-button expand="block" routerLink="/profile"><ion-icon name="person-outline"></ion-icon>Your Profile</ion-button>
+    <ion-button expand="block" routerLink="/about"><ion-icon name="information-circle-outline"></ion-icon>About</ion-button>
+    <ion-button expand="block" routerLink="/donation"><ion-icon name="bag-add-outline"></ion-icon>Donation</ion-button>
+    <br>
+    <ion-button expand="block" routerLink="/home"><ion-icon name="log-out-outline"></ion-icon>Logout</ion-button>
+  </ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button>
+        </ion-menu-button>
+      </ion-buttons>
+      <img src="assets/image2edit.jpg" alt="img" class="center">
+
+      <ion-fab vertical="center" horizontal="end" class="cart">
+        <ion-fab-button>
+          <ion-icon routerLink="/shopcart" name="cart-outline"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+
+    </ion-toolbar>
+  </ion-header>
+  
+<ion-content>
+  <ion-searchbar></ion-searchbar>
+  <ion-img src="assets/image3.jpg" alt="unique"></ion-img>
+    <ion-toolbar>
+      <ion-item-divider>
+        <ion-label> <ion-icon name="ribbon"></ion-icon> Top Restaurant - Asian - Fast Food - Beverages - Meat 
+          <br> - Chicken  </ion-label>
+      </ion-item-divider>
+    </ion-toolbar>
+    <ion-item-group>
+  
+  <ion-card color="light">
+    <ion-card-header>
+      <ion-card-title> Barkada Pack </ion-card-title>
+      <ion-grid>
+        <ion-row>
+          <ion-col><img src="assets/KU CHI TEA MENU/BARKADA PACK/crispycoatedfries.png" alt="fries-logo"></ion-col>
+          <ion-col><img src="assets/KU CHI TEA MENU/BARKADA PACK/steamedgyoza.png" alt="gyoza-logo"></ion-col>
+        </ion-row>
+      </ion-grid>
+        <ion-button shape="round" routerLink="/barkada"> Select </ion-button>
+    </ion-card-header>
+  </ion-card>
+
+  
+  <ion-card color="light">
+    <ion-card-header>
+      <ion-card-title> Frappuccino </ion-card-title>
+      <ion-grid>
+        <ion-row>
+          <ion-col><img src="assets/KU CHI TEA MENU/FRAPPUCCINO/butterscotchcoffee.png" alt="butterscotch-logo"></ion-col>
+          <ion-col><img src="assets/KU CHI TEA MENU/FRAPPUCCINO/darkmocha.png" alt="darkmocha-logo"></ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-button routerLink="/frappuccino"> Select </ion-button>
+    </ion-card-header>
+  </ion-card>
+  
+  <ion-card color="light">
+    <ion-card-header>
+      <ion-card-title> Ku Chi Snacks </ion-card-title>
+      <ion-grid>
+        <ion-row>
+          <ion-col><img src="assets/KU CHI TEA MENU/KU CHI SNACKS/kuchibeefquesadilla.png" alt="quesadilla-logo"></ion-col>
+          <ion-col><img src="assets/KU CHI TEA MENU/KU CHI SNACKS/meatyfries.png" alt="meatyfries-logo"></ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-button routerLink="/kuchi"> Select </ion-button>
+    </ion-card-header>
+  </ion-card>
+  
+  <ion-card color="light">
+    <ion-card-header>
+      <ion-card-title> Ku Chi Premier </ion-card-title>
+      <ion-grid>
+        <ion-row>
+          <ion-col><img src="assets/KU CHI TEA MENU/KU CHI PREMIER/kuchibrownsugarcreme.png" alt="brownsugar-logo"></ion-col>
+          <ion-col><img src="assets/KU CHI TEA MENU/KU CHI PREMIER/oreomatchacreme.png" alt="oreo-logo"></ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-button routerLink="/premier"> Select </ion-button>
+    </ion-card-header>
+  </ion-card>
+  
+  <ion-card color="light">
+    <ion-card-header>
+      <ion-card-title> Hot Drinks</ion-card-title>
+      <ion-grid>
+        <ion-row>
+          <ion-col><img src="assets/KU CHI TEA MENU/HOT DRINKS/brownsugarlatte.png" alt="brownsugarlatte-logo"></ion-col>
+          <ion-col><img src="assets/KU CHI TEA MENU/HOT DRINKS/cappuccino.png" alt="cappucino-logo"></ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-button routerLink="/hot"> Select </ion-button>
+    </ion-card-header>
+  </ion-card>
+
+  
